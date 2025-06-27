@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Section</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+
+<style>
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #333;
+  }
+
+  /* Additional CSS for Projects Section */
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+.card-img-top {
+  max-height: 180px; /* Adjust this value to fit the image properly in the card */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  margin-bottom: 15px;
+}
+
+/* Additional CSS for Skills Section */
+.skills-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.skills-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.skills-section .card-img-top {
+  padding: 20px; /* Add padding around your images if needed */
+  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
+  height: 180px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.skills-section .card-body {
+  padding: 15px;
+}
+.skills-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.skills-section .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.skills-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Additional CSS for Contact Section */
+.contact-section {
+  padding: 50px 0;
+}
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 50px; /* Size of your icons */
+  margin-bottom: 10px;
+}
+/* Hover effect for icons */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* Style for links in the Contact section */
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 10px;
+}
+.contact-section a:hover {
+  color: #ddd; /* Color when hovering over the link */
+}
+
+/* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+}
+
+/* Ensure padding is added to body to avoid content being hidden behind the navbar */
+body { 
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+  
+    background-color: #f5f5f5;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Same as navbar color for seamless look */
+  }
+}
+
+/* Clean Skills Section */
+.skill-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.skills-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.skills-section p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.contact-link:hover {
+    color: #0d6efd; /* Bootstrap primary blue */
+  }
+  .mr-2 {
+    margin-right: 8px;
+  }
+
+  .about-highlight {
+  background-color: #f8f9fa;
+  border-left: 4px solid #007bff;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+  
+</style>
+
+</head>
+<body>
+
+<section id='about' class="about-section">
+  <div class="container">
+    <h2>About Me</h2>
+<img src="images/about/than.jpg" alt="Than Htatt Toe Win">
+
+
+
+<p class="mt-2">Hello! I'm <strong>Than Htatt Toe Win</strong>, a recent graduate from Oxford Brookes University with <strong>First Class Honours in <br> <em>BSc (Hons) Information Technology for Business</em></strong>. </p>
+  <p>I'm passionate about using data to solve real-world problems and improve decision-making. <br> I believe that using data thoughtfully can unlock meaningful growth for both individuals and organizations.</p>
+
+<p>I am currently seeking entry-level roles in data analytics or database support. I have hands-on experience with tools like Excel, SQL, and R through academic projects involving data visualization and database systems. I am a quick learner, detail-oriented, and eager to develop my skills further in the data field.</p>
+
+<p>I am excited to apply my skills to projects that have a meaningful impact, whether by optimizing business processes or uncovering trends that help organizations make better decisions.</p>
+
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/projects/1.png" class="card-img-top" alt="EV Adoption Analysis">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Electric Vehicle Adoption Analysis – Washington State Focus</h5>
+            <p class="card-text text-justify">
+              A data visualization project conducted during my final year. I worked with publicly available datasets from the official U.S. government site, which included electric vehicle registration data across all states. I began by filtering and cleaning the dataset to focus specifically on Washington State. After preparing the data, I created two interactive visualizations: an interactive map and a combined bar-line chart to highlight adoption trends, regional differences, and growth rates over time. The project aimed to present insights in a clear and engaging way, especially for non-technical stakeholders.
+            </p>
+            <div class="mt-auto">
+              <a href="assets/projects/ev-adoption/visualisation_2.html" class="btn btn-outline-primary btn-sm mb-2 w-100" target="_blank">View Interactive Visualization</a>
+              <a href="assets/projects/ev-adoption/script.R" class="btn btn-outline-primary btn-sm mb-2 w-100" target="_blank">View R Script</a>
+              <a href="assets/projects/ev-adoption/data.csv" class="btn btn-outline-primary btn-sm mb-2 w-100" target="_blank">Download Dataset</a>
+              <a href="assets/projects/ev-adoption/report.pdf" class="btn btn-outline-primary btn-sm w-100" target="_blank">Read Report</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/projects/3.jpg" class="card-img-top" alt="Oxfordshire Housing and Council Tax Analysis">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Oxfordshire Housing and Council Tax Analysis</h5>
+            <p class="card-text text-justify">
+             A data analytics project completed during my final year. I worked with publicly available datasets from the Office for National Statistics and local council websites, collecting information on housing prices and council tax rates across Oxfordshire, UK. I started by scraping, cleaning, and transforming the data using Python, then normalized it into Third Normal Form (3NF) and built a SQL database for efficient data management. After preparing the data, I used R to perform queries and create visualizations highlighting regional comparisons, tax band distributions, and notable trends.
+            </p>
+            <div class="mt-auto">
+              <a href="assets/projects/housing-council-tax/script.R" target="_blank" class="btn btn-outline-primary btn-sm mb-2 w-100">View R Script</a>
+              <a href="assets/projects/housing-council-tax/script.sql" target="_blank" class="btn btn-outline-primary btn-sm mb-2 w-100">View SQL Script</a>
+              <a href="assets/projects/housing-council-tax/database.db" download class="btn btn-outline-primary btn-sm w-100">Download Database</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/projects/2.png" class="card-img-top" alt="Library Book Borrowing System">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Library Book Borrowing System</h5>
+            <p class="card-text text-justify">
+              A web-based system developed during my final-year computing project using PHP and MySQL. The system functions as an intermediary platform—similar to a food delivery app—connecting users with the library by enabling book borrowing and returns through a structured interface. I designed the database schema, developed user authentication, and implemented key features including due-date tracking, book availability, and admin management. This project enhanced my skills in database design and dynamic web application development.
+            </p>
+            <div class="mt-auto">
+              <a href="https://drive.google.com/file/d/1ajQsCKhJxhiA0jtOE70ZccQOxZfBRxaI/view?usp=sharing" class="btn btn-outline-primary btn-sm w-100" target="_blank">View Code Files</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- <a href="https://drive.google.com/uc?export=download&id=1ajQsCKhJxhiA0jtOE70ZccQOxZfBRxaI" class="btn btn-secondary" target="_blank">
+  Download Code
+</a> -->    
+
+<section id="skills" class="skills-section bg-white">
+  <div class="container">
+    <h2 class="text-center mb-5">Skills</h2>
+    <div class="row text-center">
+
+      <!-- Each skill column -->
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="skill-box p-4 shadow-sm h-100">
+          <img src="images/skills/sql.png" alt="SQL" class="skill-icon mb-3">
+          <h5>SQL & Database Design</h5>
+          <p>Normalized databases (1NF to 3NF), complex queries, integrated with R.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="skill-box p-4 shadow-sm h-100">
+          <img src="images/skills/r.png" alt="R Programming" class="skill-icon mb-3">
+          <h5>R Programming</h5>
+          <p>Data analysis with ggplot2, plotly, and SQL connection using RSQLite.</p>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="skill-box p-4 shadow-sm h-100">
+          <img src="images/skills/datacleaning.png" alt="Data Cleaning" class="skill-icon mb-3">
+          <h5>Data Cleaning</h5>
+          <p>Handled missing values, cleaned and transformed messy datasets.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="skill-box p-4 shadow-sm h-100">
+          <img src="images/skills/storytelling.png" alt="Data Storytelling" class="skill-icon mb-3">
+          <h5>Data Storytelling</h5>
+          <p>Explained insights using visuals and narrative techniques for stakeholders.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="skill-box p-4 shadow-sm h-100">
+          <img src="images/skills/datavisualization.png" alt="Visualization" class="skill-icon mb-3">
+          <h5>Data Visualization</h5>
+          <p>Communicated patterns using ggplot2, plotly, visdat.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="skill-box p-4 shadow-sm h-100">
+          <img src="images/skills/excel.png" alt="Excel" class="skill-icon mb-3">
+          <h5>Excel / Advanced Excel</h5>
+          <p>Used pivot tables and formulas for analytics and data prep.</p>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="skill-box p-4 shadow-sm h-100">
+          <img src="images/skills/webscraping.jpg" alt="Web Scraping" class="skill-icon mb-3">
+          <h5>Web Scraping</h5>
+          <p>Scraped structured data from council websites using Python.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="skill-box p-4 shadow-sm h-100">
+          <img src="images/skills/php.png" alt="Web Dev" class="skill-icon mb-3">
+          <h5>Web Development</h5>
+          <p>Built full-stack PHP/MySQL systems with user authentication and forms.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="skill-box p-4 shadow-sm h-100">
+          <img src="images/skills/communication.jpg" alt="Communication" class="skill-icon mb-3">
+          <h5>Communication & Presentation</h5>
+          <p>Presented insights clearly in group projects, reports, and academic work.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="volunteering" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Volunteering</h2>
+    <div class="row">
+      <!-- Oxford Brookes Digital Skills Workshops -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="images/volunteer/digitalskills.jpeg" class="card-img" alt="Digital Skills">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Digital Skills Volunteer</h5>
+                <p class="card-text">
+                  Supported older adults in improving digital confidence through workshops. Assisted with online shopping, bill payments, and social media use. Encouraged intergenerational engagement and digital inclusion.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">
+                    <a href="https://www.brookes.ac.uk" target="_blank" class="text-muted text-decoration-none">
+                      Oxford Brookes University
+                    </a>
+                  </small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Share Oxford Volunteer -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="images/volunteer/shareoxford.jpg" class="card-img" alt="Share Oxford">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Volunteer Web Support</h5>
+                <p class="card-text">
+                  Recently joined Share Oxford to contribute to their website improvement project. Involved in redesign planning, reviewing e-commerce tools, and improving local reuse resources. Working with a small team to support sustainability and community sharing.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">
+                    <a href="https://www.shareoxford.org" target="_blank" class="text-muted text-decoration-none">
+                      Share Oxford
+                    </a>
+                  </small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section bg-dark text-white py-4">
+  <div class="container">
+    <h2 class="text-center mb-8">Contact Me</h2>
+    <div class="row justify-content-center g-2">
+
+      <div class="col-md-2 col-6 text-center mb-2">
+        <a href="mailto:htatttoe@gmail.com" class="text-decoration-none">
+          <i class="fas fa-envelope fa-2x mb-1" style="color: #d44638;"></i>
+          <div class="text-white small">htatttoe@gmail.com</div>
+        </a>
+      </div>
+
+      <div class="col-md-2 col-6 text-center mb-2">
+        <a href="tel:+447774417268" class="text-decoration-none">
+          <i class="fas fa-phone fa-2x mb-1" style="color: #34b7f1;"></i>
+          <div class="text-white small">07774 417268</div>
+        </a>
+      </div>
+
+      <div class="col-md-2 col-6 text-center mb-2">
+        <a href="https://linkedin.com/in/than-htatt-toe-win-678580348" target="_blank" class="text-decoration-none">
+          <i class="fab fa-linkedin fa-2x mb-1" style="color: #0077b5;"></i>
+          <div class="text-white small">LinkedIn</div>
+        </a>
+      </div>
+
+      <div class="col-md-2 col-6 text-center mb-2">
+        <a href="https://www.instagram.com/than.htatt/" target="_blank" class="text-decoration-none">
+          <i class="fab fa-instagram fa-2x mb-1" style="color: #e4405f;"></i>
+          <div class="text-white small">Instagram</div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
